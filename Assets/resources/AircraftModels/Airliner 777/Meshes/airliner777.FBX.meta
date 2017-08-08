@@ -1,0 +1,746 @@
+fileFormatVersion: 2
+guid: 83649b5f98f5331458732acd8b4b2555
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Airfoil_FL
+    100002: Airfoil_FR
+    100004: Airfoil_RL
+    100006: Airfoil_RR
+    100008: Body
+    100010: //RootNode
+    100012: Cockpit
+    100014: Flap_L1
+    100016: Flap_L2
+    100018: Flap_L3
+    100020: Flap_L3_1
+    100022: Flap_L3_2
+    100024: Flap_R1
+    100026: Flap_R2
+    100028: Flap_R3
+    100030: Flap_R3_1
+    100032: Flap_R3_2
+    100034: Gear_F_p1
+    100036: Gear_F_p2
+    100038: Gear_F_p3
+    100040: Gear_F_p4
+    100042: Gear_F_p5
+    100044: Gear_L_p1
+    100046: Gear_L_p2
+    100048: Gear_L_p3
+    100050: Gear_L_p4
+    100052: Gear_L_p5
+    100054: Gear_L_p6
+    100056: Gear_L_p7
+    100058: Gear_R_p1
+    100060: Gear_R_p2
+    100062: Gear_R_p3
+    100064: Gear_R_p4
+    100066: Gear_R_p5
+    100068: Gear_R_p6
+    100070: Gear_R_p7
+    100072: Joystick_L
+    100074: Joystick_R
+    100076: Rudder
+    100078: Turbine_L
+    100080: Turbine_R
+    100082: Windows
+    100084: Windows_outer
+    400000: Airfoil_FL
+    400002: Airfoil_FR
+    400004: Airfoil_RL
+    400006: Airfoil_RR
+    400008: Body
+    400010: //RootNode
+    400012: Cockpit
+    400014: Flap_L1
+    400016: Flap_L2
+    400018: Flap_L3
+    400020: Flap_L3_1
+    400022: Flap_L3_2
+    400024: Flap_R1
+    400026: Flap_R2
+    400028: Flap_R3
+    400030: Flap_R3_1
+    400032: Flap_R3_2
+    400034: Gear_F_p1
+    400036: Gear_F_p2
+    400038: Gear_F_p3
+    400040: Gear_F_p4
+    400042: Gear_F_p5
+    400044: Gear_L_p1
+    400046: Gear_L_p2
+    400048: Gear_L_p3
+    400050: Gear_L_p4
+    400052: Gear_L_p5
+    400054: Gear_L_p6
+    400056: Gear_L_p7
+    400058: Gear_R_p1
+    400060: Gear_R_p2
+    400062: Gear_R_p3
+    400064: Gear_R_p4
+    400066: Gear_R_p5
+    400068: Gear_R_p6
+    400070: Gear_R_p7
+    400072: Joystick_L
+    400074: Joystick_R
+    400076: Rudder
+    400078: Turbine_L
+    400080: Turbine_R
+    400082: Windows
+    400084: Windows_outer
+    2300000: Airfoil_FL
+    2300002: Airfoil_FR
+    2300004: Airfoil_RL
+    2300006: Airfoil_RR
+    2300008: Body
+    2300010: Cockpit
+    2300012: Flap_L1
+    2300014: Flap_L2
+    2300016: Flap_L3
+    2300018: Flap_L3_1
+    2300020: Flap_L3_2
+    2300022: Flap_R1
+    2300024: Flap_R2
+    2300026: Flap_R3
+    2300028: Flap_R3_1
+    2300030: Flap_R3_2
+    2300032: Gear_F_p1
+    2300034: Gear_F_p2
+    2300036: Gear_F_p3
+    2300038: Gear_F_p4
+    2300040: Gear_F_p5
+    2300042: Gear_L_p1
+    2300044: Gear_L_p2
+    2300046: Gear_L_p3
+    2300048: Gear_L_p4
+    2300050: Gear_L_p5
+    2300052: Gear_L_p6
+    2300054: Gear_L_p7
+    2300056: Gear_R_p1
+    2300058: Gear_R_p2
+    2300060: Gear_R_p3
+    2300062: Gear_R_p4
+    2300064: Gear_R_p5
+    2300066: Gear_R_p6
+    2300068: Gear_R_p7
+    2300070: Joystick_L
+    2300072: Joystick_R
+    2300074: Rudder
+    2300076: Turbine_L
+    2300078: Turbine_R
+    2300080: Windows
+    2300082: Windows_outer
+    3300000: Airfoil_FL
+    3300002: Airfoil_FR
+    3300004: Airfoil_RL
+    3300006: Airfoil_RR
+    3300008: Body
+    3300010: Cockpit
+    3300012: Flap_L1
+    3300014: Flap_L2
+    3300016: Flap_L3
+    3300018: Flap_L3_1
+    3300020: Flap_L3_2
+    3300022: Flap_R1
+    3300024: Flap_R2
+    3300026: Flap_R3
+    3300028: Flap_R3_1
+    3300030: Flap_R3_2
+    3300032: Gear_F_p1
+    3300034: Gear_F_p2
+    3300036: Gear_F_p3
+    3300038: Gear_F_p4
+    3300040: Gear_F_p5
+    3300042: Gear_L_p1
+    3300044: Gear_L_p2
+    3300046: Gear_L_p3
+    3300048: Gear_L_p4
+    3300050: Gear_L_p5
+    3300052: Gear_L_p6
+    3300054: Gear_L_p7
+    3300056: Gear_R_p1
+    3300058: Gear_R_p2
+    3300060: Gear_R_p3
+    3300062: Gear_R_p4
+    3300064: Gear_R_p5
+    3300066: Gear_R_p6
+    3300068: Gear_R_p7
+    3300070: Joystick_L
+    3300072: Joystick_R
+    3300074: Rudder
+    3300076: Turbine_L
+    3300078: Turbine_R
+    3300080: Windows
+    3300082: Windows_outer
+    4300000: Body
+    4300002: Gear_R_p1
+    4300004: Gear_R_p2
+    4300006: Gear_R_p3
+    4300008: Gear_R_p7
+    4300010: Gear_R_p6
+    4300012: Gear_R_p4
+    4300014: Gear_R_p5
+    4300016: Gear_F_p3
+    4300018: Gear_F_p1
+    4300020: Gear_F_p2
+    4300022: Gear_F_p4
+    4300024: Gear_F_p5
+    4300026: Gear_L_p7
+    4300028: Gear_L_p6
+    4300030: Gear_L_p1
+    4300032: Gear_L_p2
+    4300034: Gear_L_p3
+    4300036: Gear_L_p4
+    4300038: Gear_L_p5
+    4300040: Windows_outer
+    4300042: Windows
+    4300044: Cockpit
+    4300046: Airfoil_FL
+    4300048: Flap_L3
+    4300050: Flap_L2
+    4300052: Flap_L1
+    4300054: Flap_R1
+    4300056: Flap_R2
+    4300058: Flap_R3
+    4300060: Airfoil_FR
+    4300062: Flap_L3_1
+    4300064: Flap_L3_2
+    4300066: Flap_R3_2
+    4300068: Flap_R3_1
+    4300070: Airfoil_RL
+    4300072: Airfoil_RR
+    4300074: Rudder
+    4300076: Turbine_L
+    4300078: Turbine_R
+    4300080: Joystick_R
+    4300082: Joystick_L
+    7400000: open
+    7400002: close
+    7400004: gear closed
+    7400006: gear opened
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Airfoil_FL
+        weight: 1
+      - path: Airfoil_FR
+        weight: 1
+      - path: Airfoil_RL
+        weight: 1
+      - path: Airfoil_RR
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Cockpit
+        weight: 1
+      - path: Flap_L1
+        weight: 1
+      - path: Flap_L2
+        weight: 1
+      - path: Flap_L3
+        weight: 1
+      - path: Flap_L3_1
+        weight: 1
+      - path: Flap_L3_2
+        weight: 1
+      - path: Flap_R1
+        weight: 1
+      - path: Flap_R2
+        weight: 1
+      - path: Flap_R3
+        weight: 1
+      - path: Flap_R3_1
+        weight: 1
+      - path: Flap_R3_2
+        weight: 1
+      - path: Gear_F_p3
+        weight: 1
+      - path: Gear_F_p3/Gear_F_p1
+        weight: 1
+      - path: Gear_F_p3/Gear_F_p2
+        weight: 1
+      - path: Gear_F_p4
+        weight: 1
+      - path: Gear_F_p5
+        weight: 1
+      - path: Gear_L_p1
+        weight: 1
+      - path: Gear_L_p1/Gear_L_p2
+        weight: 1
+      - path: Gear_L_p1/Gear_L_p2/Gear_L_p3
+        weight: 1
+      - path: Gear_L_p4
+        weight: 1
+      - path: Gear_L_p4/Gear_L_p5
+        weight: 1
+      - path: Gear_L_p6
+        weight: 1
+      - path: Gear_L_p7
+        weight: 1
+      - path: Gear_R_p1
+        weight: 1
+      - path: Gear_R_p1/Gear_R_p2
+        weight: 1
+      - path: Gear_R_p1/Gear_R_p2/Gear_R_p3
+        weight: 1
+      - path: Gear_R_p4
+        weight: 1
+      - path: Gear_R_p4/Gear_R_p5
+        weight: 1
+      - path: Gear_R_p6
+        weight: 1
+      - path: Gear_R_p7
+        weight: 1
+      - path: Joystick_L
+        weight: 1
+      - path: Joystick_R
+        weight: 1
+      - path: Rudder
+        weight: 1
+      - path: Turbine_L
+        weight: 1
+      - path: Turbine_R
+        weight: 1
+      - path: Windows
+        weight: 1
+      - path: Windows_outer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: close
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Airfoil_FL
+        weight: 1
+      - path: Airfoil_FR
+        weight: 1
+      - path: Airfoil_RL
+        weight: 1
+      - path: Airfoil_RR
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Cockpit
+        weight: 1
+      - path: Flap_L1
+        weight: 1
+      - path: Flap_L2
+        weight: 1
+      - path: Flap_L3
+        weight: 1
+      - path: Flap_L3_1
+        weight: 1
+      - path: Flap_L3_2
+        weight: 1
+      - path: Flap_R1
+        weight: 1
+      - path: Flap_R2
+        weight: 1
+      - path: Flap_R3
+        weight: 1
+      - path: Flap_R3_1
+        weight: 1
+      - path: Flap_R3_2
+        weight: 1
+      - path: Gear_F_p3
+        weight: 1
+      - path: Gear_F_p3/Gear_F_p1
+        weight: 1
+      - path: Gear_F_p3/Gear_F_p2
+        weight: 1
+      - path: Gear_F_p4
+        weight: 1
+      - path: Gear_F_p5
+        weight: 1
+      - path: Gear_L_p1
+        weight: 1
+      - path: Gear_L_p1/Gear_L_p2
+        weight: 1
+      - path: Gear_L_p1/Gear_L_p2/Gear_L_p3
+        weight: 1
+      - path: Gear_L_p4
+        weight: 1
+      - path: Gear_L_p4/Gear_L_p5
+        weight: 1
+      - path: Gear_L_p6
+        weight: 1
+      - path: Gear_L_p7
+        weight: 1
+      - path: Gear_R_p1
+        weight: 1
+      - path: Gear_R_p1/Gear_R_p2
+        weight: 1
+      - path: Gear_R_p1/Gear_R_p2/Gear_R_p3
+        weight: 1
+      - path: Gear_R_p4
+        weight: 1
+      - path: Gear_R_p4/Gear_R_p5
+        weight: 1
+      - path: Gear_R_p6
+        weight: 1
+      - path: Gear_R_p7
+        weight: 1
+      - path: Joystick_L
+        weight: 1
+      - path: Joystick_R
+        weight: 1
+      - path: Rudder
+        weight: 1
+      - path: Turbine_L
+        weight: 1
+      - path: Turbine_R
+        weight: 1
+      - path: Windows
+        weight: 1
+      - path: Windows_outer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: gear closed
+      takeName: Take 001
+      firstFrame: 58
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Airfoil_FL
+        weight: 1
+      - path: Airfoil_FR
+        weight: 1
+      - path: Airfoil_RL
+        weight: 1
+      - path: Airfoil_RR
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Cockpit
+        weight: 1
+      - path: Flap_L1
+        weight: 1
+      - path: Flap_L2
+        weight: 1
+      - path: Flap_L3
+        weight: 1
+      - path: Flap_L3_1
+        weight: 1
+      - path: Flap_L3_2
+        weight: 1
+      - path: Flap_R1
+        weight: 1
+      - path: Flap_R2
+        weight: 1
+      - path: Flap_R3
+        weight: 1
+      - path: Flap_R3_1
+        weight: 1
+      - path: Flap_R3_2
+        weight: 1
+      - path: Gear_F_p3
+        weight: 1
+      - path: Gear_F_p3/Gear_F_p1
+        weight: 1
+      - path: Gear_F_p3/Gear_F_p2
+        weight: 1
+      - path: Gear_F_p4
+        weight: 1
+      - path: Gear_F_p5
+        weight: 1
+      - path: Gear_L_p1
+        weight: 1
+      - path: Gear_L_p1/Gear_L_p2
+        weight: 1
+      - path: Gear_L_p1/Gear_L_p2/Gear_L_p3
+        weight: 1
+      - path: Gear_L_p4
+        weight: 1
+      - path: Gear_L_p4/Gear_L_p5
+        weight: 1
+      - path: Gear_L_p6
+        weight: 1
+      - path: Gear_L_p7
+        weight: 1
+      - path: Gear_R_p1
+        weight: 1
+      - path: Gear_R_p1/Gear_R_p2
+        weight: 1
+      - path: Gear_R_p1/Gear_R_p2/Gear_R_p3
+        weight: 1
+      - path: Gear_R_p4
+        weight: 1
+      - path: Gear_R_p4/Gear_R_p5
+        weight: 1
+      - path: Gear_R_p6
+        weight: 1
+      - path: Gear_R_p7
+        weight: 1
+      - path: Joystick_L
+        weight: 1
+      - path: Joystick_R
+        weight: 1
+      - path: Rudder
+        weight: 1
+      - path: Turbine_L
+        weight: 1
+      - path: Turbine_R
+        weight: 1
+      - path: Windows
+        weight: 1
+      - path: Windows_outer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: gear opened
+      takeName: Take 001
+      firstFrame: 28
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Airfoil_FL
+        weight: 1
+      - path: Airfoil_FR
+        weight: 1
+      - path: Airfoil_RL
+        weight: 1
+      - path: Airfoil_RR
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Cockpit
+        weight: 1
+      - path: Flap_L1
+        weight: 1
+      - path: Flap_L2
+        weight: 1
+      - path: Flap_L3
+        weight: 1
+      - path: Flap_L3_1
+        weight: 1
+      - path: Flap_L3_2
+        weight: 1
+      - path: Flap_R1
+        weight: 1
+      - path: Flap_R2
+        weight: 1
+      - path: Flap_R3
+        weight: 1
+      - path: Flap_R3_1
+        weight: 1
+      - path: Flap_R3_2
+        weight: 1
+      - path: Gear_F_p3
+        weight: 1
+      - path: Gear_F_p3/Gear_F_p1
+        weight: 1
+      - path: Gear_F_p3/Gear_F_p2
+        weight: 1
+      - path: Gear_F_p4
+        weight: 1
+      - path: Gear_F_p5
+        weight: 1
+      - path: Gear_L_p1
+        weight: 1
+      - path: Gear_L_p1/Gear_L_p2
+        weight: 1
+      - path: Gear_L_p1/Gear_L_p2/Gear_L_p3
+        weight: 1
+      - path: Gear_L_p4
+        weight: 1
+      - path: Gear_L_p4/Gear_L_p5
+        weight: 1
+      - path: Gear_L_p6
+        weight: 1
+      - path: Gear_L_p7
+        weight: 1
+      - path: Gear_R_p1
+        weight: 1
+      - path: Gear_R_p1/Gear_R_p2
+        weight: 1
+      - path: Gear_R_p1/Gear_R_p2/Gear_R_p3
+        weight: 1
+      - path: Gear_R_p4
+        weight: 1
+      - path: Gear_R_p4/Gear_R_p5
+        weight: 1
+      - path: Gear_R_p6
+        weight: 1
+      - path: Gear_R_p7
+        weight: 1
+      - path: Joystick_L
+        weight: 1
+      - path: Joystick_R
+        weight: 1
+      - path: Rudder
+        weight: 1
+      - path: Turbine_L
+        weight: 1
+      - path: Turbine_R
+        weight: 1
+      - path: Windows
+        weight: 1
+      - path: Windows_outer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
