@@ -11,6 +11,7 @@ public class changeScene : MonoBehaviour {
     void Start()
     {
         btn = yourButton.GetComponent<Button>();
+		gameObject.AddComponent<GlobalVariable>();
         btn.onClick.AddListener(switchScene);
     }
 
@@ -23,8 +24,12 @@ public class changeScene : MonoBehaviour {
 
 		if (str=="Start") SceneManager.LoadScene("LevelSelection");
 		else if (str=="Level 1") SceneManager.LoadScene("Main");
-		else if (str=="Level 2") SceneManager.LoadScene("LV2");
-		else if (str=="Restart") SceneManager.LoadScene("Main");
+		// else if (str=="Level 2") SceneManager.LoadScene("LV2");
+		else if (str=="Restart") 
+		{
+			gameObject.GetComponent<GlobalVariable>().initPlayTime();
+			// SceneManager.LoadScene("Main");
+		}
 		
 		// else if (txt.text=="Setting") SceneManager.LoadScene("LevelSelection");
 		// else if (txt.text=="Records") SceneManager.LoadScene("scoreBoard");

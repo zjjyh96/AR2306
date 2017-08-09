@@ -27,5 +27,10 @@ public class GameEnd : MonoBehaviour {
 			// win.enabled=true;
 			sBoard.SetActive(true);
 		}
+		else 
+		{
+			sBoard.SetActive(false);
+			Debug.Log("AAAAA");
+		}
 	}
 }

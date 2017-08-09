@@ -53,7 +53,6 @@ public class GlobalVariable : MonoBehaviour {
     {
         return playTime;
     }
-
     public void initPlayTime()
     {
         playTime=0f;
