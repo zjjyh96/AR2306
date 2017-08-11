@@ -49,14 +49,15 @@ public class GlobalVariable : MonoBehaviour {
     }
 
     // return current playtime
-    public float returnPlayTime()
+    public double returnPlayTime()
     {
-        return playTime;
+        return (double)playTime;
     }
     public void initPlayTime()
     {
         playTime=0f;
         isGameEnd=false;
+        score = 0;
     }
 
     public void insertTimeRecords(float newRec)
@@ -86,8 +87,8 @@ public class GlobalVariable : MonoBehaviour {
 
     void Update()
     {   
-        if (score!=2)playTime+=Time.deltaTime;
-        else if (score==2) 
+        if (score!=1)playTime+=Time.deltaTime;
+        else if (score==1 && isGameEnd==false) 
         {
             isGameEnd=true;
             insertTimeRecords(playTime);

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class getTime : MonoBehaviour {
 	int hour,minute,second,millisecond;  
-  	float timeSpend;
+  	double timeSpend;
     Text text_timeSpend;  
 
     // Use this for initialization  

@@ -8,6 +8,7 @@ public class GameEnd : MonoBehaviour {
 	// Use this for initialization
 	// Image win;
 	public GameObject sBoard;
+	public GameObject reStart;
 	private string str="No.";
 	void Start () {
 		gameObject.AddComponent<GlobalVariable>();
@@ -16,6 +17,7 @@ public class GameEnd : MonoBehaviour {
 		// win=GetComponentInChildren<Image>();
 		// win.enabled = false;
 		sBoard.SetActive(false);
+		reStart.SetActive(false);
 		
 	}
 	
@@ -26,11 +28,13 @@ public class GameEnd : MonoBehaviour {
 		{
 			// win.enabled=true;
 			sBoard.SetActive(true);
+			reStart.SetActive(true);
 		}
 		else 
 		{
 			sBoard.SetActive(false);
-			Debug.Log("AAAAA");
+			reStart.SetActive(false);
+			// Debug.Log("AAAAA");
 		}
 	}
 }
