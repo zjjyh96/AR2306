@@ -60,14 +60,15 @@ public class GlobalVariable : MonoBehaviour {
         score = 0;
     }
 
-    public void insertTimeRecords(float newRec)
+    public void insertTimeRecords(double newRec)
     {
         int n=4;
-        while (n>=0) 
+        while (n>=0)
+        {
             if(timeRecords[n]==0) n--;
             else break;
-        if (n>0)
-        while (timeRecords[n]>newRec)
+        } 
+        while (n>=0 && timeRecords[n]>newRec)
         {
             timeRecords[n+1]=timeRecords[n];
             n--;
@@ -92,8 +93,9 @@ public class GlobalVariable : MonoBehaviour {
         {
             isGameEnd=true;
             insertTimeRecords(playTime);
+            Debug.Log(playTime);
         }
-        Debug.Log(score);
+        // Debug.Log(score);
     }
 
 }
